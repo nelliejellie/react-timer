@@ -1,0 +1,21 @@
+.footer{
+    background-image: url(../images/hills.svg);
+    width: 98.5vw;
+    height: 20vh;
+}
+img{
+    
+}
+.socials{
+    width: 40vw;
+    position: relative;
+    top: 10vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: var(--Grayishblue);
+}
+span{
+    margin-left: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+@media(max-width:2560px){
+    body{
+      background-color: var(--Verydarkblue);
+    }
+    .timer{
+      color: var(--Softred);
+      text-align: center;
+      margin-top: 30vh;
+      font-size: 60px;
+      font-weight: bolder;
+    }
+    
+    
+  }
+  @media(max-width:1440px){
+    
+  }
+  @media(max-width:1024px){
+    
+  }
+  @media(max-width:768px){
+    
+  }
+  @media(max-width:425px){
+    .timer{
+      color: var(--Softred);
+      text-align: center;
+      margin-top: 30vh;
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  @media(max-width:375px){
+    .timer{
+      color: var(--Softred);
+      text-align: center;
+      margin-top: 30vh;
+      font-size: 25px;
+      font-weight: bolder;
+    }
+  }

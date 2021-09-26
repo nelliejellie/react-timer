@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Seconds from './components/Seconds';
+import Footer from './components/Footer';
 
 function App() {
+  const dayshoursMinSecs = {days:14, hours:0, minutes: 0, seconds: 0}
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p className="p">WE'RE LAUNCHING SOON</p>
+        <Seconds dayshoursMinSecs={dayshoursMinSecs}/>
+        <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;

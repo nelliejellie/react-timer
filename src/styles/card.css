@@ -1,0 +1,31 @@
+.cardcontainer{
+    display: inline-block;
+}
+.card{
+    background-color: var(--Darkdesaturatedblue);
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 20px;
+}
+.check{
+    position: relative;
+    font-size: 20px;
+    bottom: 50px;
+    text-transform: uppercase;
+    color: var(--Grayishblue);
+}
+hr{
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    width: 8vw;
+    top: 44px;
+    background-color: firebrick;
+    height: 0.5px;
+}
+@media(max-width:425px){
+  .check{
+      font-size: 12px;
+      text-transform: uppercase;
+  }
+}
